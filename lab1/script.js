@@ -23,3 +23,11 @@ function updatePetDescription() {
         " and is currently feeling " + mood +
         ". The pet is " + hungerStatus + ".";
 }
+//Step 5 : added Code to change pet name
+function changeName() {
+    let input = document.getElementById("nameInput").value;
+    if (input !== "") {
+        petName = input;
+        updatePetDescription();
+    }
+}

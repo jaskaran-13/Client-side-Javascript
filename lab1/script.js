@@ -31,3 +31,16 @@ function changeName() {
         updatePetDescription();
     }
 }
+// Step 6:Increase pet age
+function increaseAge() {
+    petAge += 1;
+    updatePetDescription();
+}
+
+// Decrease pet age 
+function decreaseAge() {
+    if (petAge > 0) {
+        petAge -= 1;
+        updatePetDescription();
+    }
+}

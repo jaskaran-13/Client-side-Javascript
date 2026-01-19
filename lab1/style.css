@@ -1,0 +1,13 @@
+/* Styling for webpage */
+body {
+    /* Set  font for page*/
+    font-family: Arial, sans-serif;
+
+    /* Light background color */
+    background-color: #dde6ed;
+
+    
+    text-align: center;
+
+    padding: 40px;
+}

@@ -12,3 +12,14 @@ const moods = ["happy", "sleepy", "excited", "hungry"];
 petType = petTypes[Math.floor(Math.random() * petTypes.length)];
 petAge = Math.floor(Math.random() * 10);
 mood = moods[Math.floor(Math.random() * moods.length)];
+// Step4:update pet description on the webpage using basic math
+function updatePetDescription() {
+    let hungerStatus = isHungry ? "hungry" : "not hungry";
+    let activity = favoriteActivities[Math.floor(Math.random() * favoriteActivities.length)];
+
+    document.getElementById("petDescription").innerText =
+        "Meet " + petName + ", a " + petAge + "-year-old " + petType +
+        " who loves " + activity +
+        " and is currently feeling " + mood +
+        ". The pet is " + hungerStatus + ".";
+}

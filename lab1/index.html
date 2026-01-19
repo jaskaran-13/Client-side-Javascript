@@ -14,3 +14,28 @@
 
         <!-- Paragraph where pet description will be shown dynamically -->
         <p id="petDescription"></p>
+
+        <div class="controls">
+
+            <!-- Input field to change the  pet name -->
+            <input type="text" id="nameInput" placeholder="Enter pet name">
+
+            <!-- Button  -->
+            <button onclick="changeName()">Change Name</button>
+
+            
+            <div class="age-controls">
+                <button onclick="increaseAge()">Increase Age</button>
+                <button onclick="decreaseAge()">Decrease Age</button>
+            </div>
+
+            
+            <button onclick="toggleHunger()">Toggle Hungry</button>
+        </div>
+    </div>
+
+    <!-- Linking  JavaScript file -->
+    <script src="script.js"></script>
+
+</body>
+</html>

@@ -44,3 +44,11 @@ function decreaseAge() {
         updatePetDescription();
     }
 }
+// Step7:Toggle hungry status
+function toggleHunger() {
+    isHungry = !isHungry;
+    updatePetDescription();
+}
+
+// Initial display
+updatePetDescription();

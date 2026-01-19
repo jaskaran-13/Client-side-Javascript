@@ -11,3 +11,50 @@ body {
 
     padding: 40px;
 }
+/* Card contains the pet information */
+.pet-card {
+    
+    background-color: #f4f4f4;
+
+  
+    padding: 25px;
+
+    /* Rounded corners */
+    border-radius: 10px;
+
+  
+    width: 400px;
+
+    /* Center the card on the page */
+    margin: auto;
+
+    /*  shadow effect */
+    box-shadow: 0 4px 10px rgba(15, 15, 15, 0.1);
+}
+
+
+.controls {
+
+    margin-top: 20px;
+}
+
+
+button {
+    /* Space around buttons */
+    margin: 5px;
+
+    /* Space inside buttons */
+    padding: 8px 12px;
+
+   
+    cursor: pointer;
+}
+
+
+input {
+  
+    padding: 6px;
+
+  
+    width: 70%;
+}

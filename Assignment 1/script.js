@@ -43,3 +43,14 @@ document.getElementById("showStory").addEventListener("click", () => {
     document.getElementById("storyOutput").textContent =
         selected.join(" ") + ".";
 });
+// step 6: code for random story
+document.getElementById("randomStory").addEventListener("click", () => {
+    const randomStory =
+        who[Math.floor(Math.random() * who.length)] + " " +
+        didWhat[Math.floor(Math.random() * didWhat.length)] + " " +
+        withWhat[Math.floor(Math.random() * withWhat.length)] + " " +
+        where[Math.floor(Math.random() * where.length)] + " " +
+        when[Math.floor(Math.random() * when.length)] + ".";
+    
+    document.getElementById("storyOutput").textContent = randomStory;
+});

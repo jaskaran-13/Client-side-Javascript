@@ -54,3 +54,7 @@ document.getElementById("randomStory").addEventListener("click", () => {
     
     document.getElementById("storyOutput").textContent = randomStory;
 });
+// step 7: Reset
+document.getElementById("reset").addEventListener("click", () => {
+    location.reload();
+});

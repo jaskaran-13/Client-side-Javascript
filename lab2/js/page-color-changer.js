@@ -1,6 +1,6 @@
 /****************************************************
  * LAB 2 – PAGE COLOR CHANGER
- ****************************************************/
+ ***/
 /* STEP 1: selected required html elements by analyzing given html codes*/
 // Red color slider
 const redSlider = document.querySelector("#Red");

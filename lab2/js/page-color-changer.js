@@ -22,3 +22,10 @@ greenSlider.addEventListener("input", changeBackgroundColor);
 
 // Listener for changes on blue slider
 blueSlider.addEventListener("input", changeBackgroundColor);
+//step 3created function to change the backgriund color
+function changeBackgroundColor() {
+
+    // STEP 3.1: Get present values from sliders
+    const redValue = redSlider.value;
+    const greenValue = greenSlider.value;
+    const blueValue = blueSlider.value;

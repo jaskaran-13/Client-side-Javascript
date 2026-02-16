@@ -29,3 +29,5 @@ function changeBackgroundColor() {
     const redValue = redSlider.value;
     const greenValue = greenSlider.value;
     const blueValue = blueSlider.value;
+// STEP 3.2: Created RGB color using slider values
+    const rgbColor = `rgb(${redValue}, ${greenValue}, ${blueValue})`;

@@ -4,7 +4,7 @@ STEP 1: Created a JavaScript constructor
 
 */
 
-function ToyCar(name, brand, color, scale, material, price, year, stock, weight, modelNumber, image){
+function ToyCar(name, brand, color, scale, material, price, year, stock, weight, modelNumber){
 
 this.name = name
 this.brand = brand
@@ -16,7 +16,7 @@ this.year = year
 this.stock = stock
 this.weight = weight
 this.modelNumber = modelNumber
-this.image = image
+
 
 }
 /*
@@ -35,7 +35,7 @@ let car1 = new ToyCar(
 15,
 "0.5kg",
 "MT1234",
-"https://i.imgur.com/OK8N8.png"
+
 
 )
 /*
@@ -50,7 +50,7 @@ document.getElementById("material").innerHTML = car1.material
 document.getElementById("price").innerHTML = car1.price
 document.getElementById("year").innerHTML = car1.year
 document.getElementById("stock").innerHTML = car1.stock
-document.getElementById("image").src = car1.image
+
 /*
 STEP 4: Added  interaction so users can modify object properties
 

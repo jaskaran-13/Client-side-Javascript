@@ -1,41 +1,101 @@
 /* 
-started css code to style layout and design
+STEP 9: Styling the webpage to make the toy car product card 
 */
+
 body{
-font-family: Arial;
-background:#dddada;
+font-family: Arial, Helvetica, sans-serif;
+background: linear-gradient(135deg,#faea84,#fbfcfc);
 text-align:center;
-}
-/* Page heading style */
-h1{
-color:#2e2d2d;
+margin:0;
+padding:0;
 }
 
-/* Container alignment */
+/* Page heading */
+
+h1{
+margin-top:40px;
+color:#575656;
+font-size:36px;
+letter-spacing:1px;
+}
+
+/* Container */
+
 .container{
 display:flex;
 justify-content:center;
+align-items:center;
 margin-top:40px;
 }
-/* Product card style */
+
+/* Product card */
+
 .card{
-background:rgb(248, 239, 239);
-padding:20px;
-border-radius:10px;
-box-shadow:0px 0px 10px rgba(0,0,0,0.2);
-width:300px;
+background:white;
+padding:30px;
+border-radius:15px;
+box-shadow:0 10px 25px rgba(0,0,0,0.15);
+width:320px;
+text-align:left;
+transition:transform 0.3s;
 }
-/* Button style */
+
+/* Card hover animation */
+
+.card:hover{
+transform:scale(1.05);
+}
+
+/* Product title */
+
+.card h2{
+text-align:center;
+color:#222;
+margin-bottom:20px;
+}
+
+/* Product details */
+
+.card p{
+font-size:16px;
+margin:8px 0;
+color:#555;
+}
+
+/* Highlight labels */
+
+.card b{
+color:#000;
+}
+
+/* Buttons */
+
 button{
-margin:6px;
-padding:12px;
+margin-top:10px;
+margin-right:5px;
+padding:10px 15px;
 border:none;
-background:#0d82ff;
+background:#007BFF;
 color:white;
-border-radius:5px;
+border-radius:8px;
 cursor:pointer;
+font-size:14px;
+transition:0.3s;
 }
+
 /* Button hover effect */
+
 button:hover{
 background:#0056b3;
+transform:translateY(-2px);
+}
+
+/* Mobile responsiveness */
+
+@media (max-width:600px){
+
+.card{
+width:90%;
+}
+
 }

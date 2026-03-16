@@ -38,3 +38,16 @@ let car1 = new ToyCar(
 "https://i.imgur.com/OK8N8.png"
 
 )
+/*
+STEP 3: Displayed the object properties on the webpage
+*/
+
+document.getElementById("name").innerHTML = car1.name
+document.getElementById("brand").innerHTML = car1.brand
+document.getElementById("color").innerHTML = car1.color
+document.getElementById("scale").innerHTML = car1.scale
+document.getElementById("material").innerHTML = car1.material
+document.getElementById("price").innerHTML = car1.price
+document.getElementById("year").innerHTML = car1.year
+document.getElementById("stock").innerHTML = car1.stock
+document.getElementById("image").src = car1.image

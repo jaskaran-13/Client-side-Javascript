@@ -25,10 +25,10 @@ STEP 2: Created  an object instance using the constructor
 
 let car1 = new ToyCar(
 
-"Lamborghini Aventador",
+"Lamborghini Huracan",
 "Maisto",
 "Yellow",
-"1:24",
+"1:24 scale diecast",
 "Diecast Metal",
 29.99,
 2023,

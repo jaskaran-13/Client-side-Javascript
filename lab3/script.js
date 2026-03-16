@@ -51,3 +51,14 @@ document.getElementById("price").innerHTML = car1.price
 document.getElementById("year").innerHTML = car1.year
 document.getElementById("stock").innerHTML = car1.stock
 document.getElementById("image").src = car1.image
+/*
+STEP 4: Added  interaction so users can modify object properties
+
+*/
+//created function to change the toy car color
+function changeColor(){
+
+car1.color = "Red"
+document.getElementById("color").innerHTML = car1.color
+
+}

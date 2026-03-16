@@ -19,3 +19,22 @@ this.modelNumber = modelNumber
 this.image = image
 
 }
+/*
+STEP 2: Created  an object instance using the constructor
+*/
+
+let car1 = new ToyCar(
+
+"Lamborghini Aventador",
+"Maisto",
+"Yellow",
+"1:24",
+"Diecast Metal",
+29.99,
+2023,
+15,
+"0.5kg",
+"MT1234",
+"https://i.imgur.com/OK8N8.png"
+
+)

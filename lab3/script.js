@@ -62,3 +62,13 @@ car1.color = "Red"
 document.getElementById("color").innerHTML = car1.color
 
 }
+/*
+STEP 5: created  function to apply discount to the toy car price
+*/
+
+function discount(){
+
+car1.price = car1.price - 5
+document.getElementById("price").innerHTML = car1.price
+
+}

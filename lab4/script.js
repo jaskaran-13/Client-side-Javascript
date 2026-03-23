@@ -7,4 +7,7 @@ fetch('data.json')
 
     //  Step 3: Loop through each flavour in JSON
     data.flavours.forEach(flavour => {
+// Created a new div for very flavour
+        const card = document.createElement('div');
 
+        let calorieLevel = "";

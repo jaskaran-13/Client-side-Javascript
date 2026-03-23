@@ -45,3 +45,12 @@ card.innerHTML = `
             <p><em>${typeMessage}</em></p>
             <hr>
         `;
+  // Add card to container
+        container.appendChild(card);
+    });
+
+})
+.catch(error => {
+    // Error handling
+    console.log("Error loading JSON:", error);
+});

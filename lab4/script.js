@@ -11,3 +11,13 @@ fetch('data.json')
         const card = document.createElement('div');
 
         let calorieLevel = "";
+         //step 4: Check range of calories
+        if (flavour.calories < 100) {
+            calorieLevel = "Low Calories";
+        } 
+        else if (flavour.calories <= 200) {
+            calorieLevel = "Medium Calories";
+        } 
+        else {
+            calorieLevel = "High Calories";
+        }

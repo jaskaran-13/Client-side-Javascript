@@ -37,4 +37,11 @@ fetch('data.json')
         else {
             typeMessage = "Energy boost";
         }
-
+// step6 Display data
+card.innerHTML = `
+            <h2>${flavour.name}</h2>
+            <p><strong>Calories:</strong> ${flavour.calories} (${calorieLevel})</p>
+            <p><strong>Type:</strong> ${flavour.type}</p>
+            <p><em>${typeMessage}</em></p>
+            <hr>
+        `;

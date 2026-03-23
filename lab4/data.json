@@ -1,0 +1,29 @@
+{
+  "flavours": [
+    {
+      "name": "Strawberry cheescake",
+      "calories": 120,
+      "type": "Fruit"
+    },
+    {
+      "name": "Chocolate Truffle",
+      "calories": 250,
+      "type": "Dessert"
+    },
+    {
+      "name": "Green Detox",
+      "calories": 90,
+      "type": "Healthy"
+    },
+    {
+      "name": "Apple Magic",
+      "calories": 140,
+      "type": "Fruit"
+    },
+    {
+      "name": "Almond flavour",
+      "calories": 300,
+      "type": "Protein"
+    }
+  ]
+}

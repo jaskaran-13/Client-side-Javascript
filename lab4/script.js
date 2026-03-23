@@ -21,3 +21,20 @@ fetch('data.json')
         else {
             calorieLevel = "High Calories";
         }
+        // step 5:type meaning
+        let typeMessage = "";
+
+        // Add meaning based on type of flavour
+        if (flavour.type === "Fruit") {
+            typeMessage = "Fresh and fruity";
+        } 
+        else if (flavour.type === "Dessert") {
+            typeMessage = "Sweet treat";
+        } 
+        else if (flavour.type === "Healthy") {
+            typeMessage = "Good for healthy diet";
+        } 
+        else {
+            typeMessage = "Energy boost";
+        }
+
